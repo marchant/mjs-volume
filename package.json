@@ -8,13 +8,13 @@
     "url": "https://github.com/montagestudio/mjs-volume.git"
   },
   "dependencies": {
-    "collections": "^5.0.6",
+    "collections": "~5.1.x",
     "cssom": "https://github.com/montagejs/cssom.git#gh-pages",
-    "digit": "^3.0.0",
-    "matte": "^0.3.0",
-    "montage": "^17.0.8",
-    "native": "^0.3.0",
-    "q": "0.9.6",
+    "digit": "github:montagejs/digit#master",
+    "matte": "github:marchant/matte#master",
+    "montage": "github:marchant/montage#montage-19",
+    "native": "github:marchant/native",
+    "bluebird-q": "marchant/bluebird-q#master",
     "url": "0.7.9"
   },
   "devDependencies": {

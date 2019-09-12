@@ -21,7 +21,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-var Q = require("q");
+var Q = require("bluebird-q");
 var RuntimeTFLoader = require("runtime/runtime-tf-loader").RuntimeTFLoader;
 
 exports.BuiltInAssets = Object.create(Object.prototype, {

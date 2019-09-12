@@ -27,7 +27,7 @@ var UUID = require("montage/core/uuid");
 var RuntimeTFLoader = require("runtime/runtime-tf-loader").RuntimeTFLoader;
 var URL = require("url");
 var SceneResourceLoader = require("runtime/scene-resource-loader").SceneResourceLoader;
-var Q = require("q");
+var Q = require("bluebird-q");
 var Target = require("montage/core/target").Target;
 var CSSOM = require("cssom");
 
